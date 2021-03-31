@@ -25,3 +25,9 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+body {
+    width: 670px;
+    height: 440px;
+    font-family: 'Rubik', sans-serif;
+}
