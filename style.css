@@ -27,7 +27,146 @@ body {
 /* ----- zde zacni psat vlastni css ----- */
 
 body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+.zbozi {
     width: 670px;
     height: 440px;
-    font-family: 'Rubik', sans-serif;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    margin: auto; /* zarovnání na střed */
+    margin-top: 2rem; /* odsunutí od vrchu prohlížeče */
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+p,
+h2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #f1ad9f;
+}
+
+.produkt,
+.popis,
+.akce {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.slogan,
+.cenovka,
+.tlacitko {
+    color: white;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.detaily {
+    width: 335px;
+    height: 440px;
+    border-radius: 0 30px 30px 0;
+    float: right;
+    position: relative;
+}
+
+.popis {
+    border-bottom: 2px solid #06d7c1;
+    padding: 15px 0 30px 0;
+}
+
+.produkt {
+    color: #959595;
+}
+
+
+li {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+.vybrana {
+    border: 1.5px solid #f15f42;
+    color: #f15f42;
+    border-radius: 50%;
+}
+
+.vybrana:hover {
+    border: 1.5px solid #f1ad9f;
+    color: #f1ad9f;
+}
+
+.tlacitko {
+    padding: 15px 30px;
+    background-color: #f15f42;
+    border-radius: 5px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 30px;
+}
+
+.vizual {
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    width: 335px;
+    height: 440px;
+    border-radius: 30px 0 0 30px;
+    position: relative;
+    float: left;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.slogan {
+    margin-top: 84px;
+    margin-left: 30px;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bota {
+    margin-top: 140px;
+    position: absolute;
+    right: 0px;
+}
+
+.cenovka {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    text-align: right;
 }
